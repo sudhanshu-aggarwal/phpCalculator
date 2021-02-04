@@ -88,10 +88,8 @@
             success: (data) =>{
                 
                 $('#data').val(data);
-            },
-            catch: (err) => {
-                $('#data').val(err);
             }
+            
         })
         
         }

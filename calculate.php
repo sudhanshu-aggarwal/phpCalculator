@@ -28,12 +28,7 @@ switch($op)
         $result = $n1 - $n2;
         break;  
     case'/':
-        try{
-            $result = $n1 / $n2;
-        }
-        catch(Exception $e){
-            echo 'ggg'.$e->getMessage();
-        }
+        $result = $n1 / $n2;
         break;
     case'*':
         $result = $n1 * $n2;
